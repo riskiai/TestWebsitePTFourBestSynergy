@@ -1,66 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+#DESKRIPSI : 
+Saya ingin mengucapkan terima kasih kepada PT. Four Best Synergy atas kesempatan yang telah diberikan kepada saya untuk menyelesaikan tes yang ditentukan. Saya juga dengan bangga menginformasikan bahwa test membuat Website antrian telah selesai saya kerjakan sesuai dengan ketentuan yang diberikan. Beberapa penambahan field pada tabel juga telah disesuaikan untuk mendukung kebutuhan spesifik test ini.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+#SPESIFIKASI :
+Laravel Version : 11 PHP Version : ^8.3  MySQL Version : 15.1 
 
-## About Laravel
+Libary Yang Dipakai :
+DomPDF , Yajra Table
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+#CARA INSTALL PROJECT DI GITHUB :
+1. Pertama masuk ke github yang ingin di git clone
+2. Kedua lakukan php artisan key:generate
+3. Ketiga Sesuaikan ENV nya tersebut dengan EnvExample
+4. Keempat melakukan php artisan migrate --seed
+5. Kelima Lakukan php artisan serve
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+#CREDENTIALS / ROLE 
+1. Customer Pengunjung Tiket
+2. Admin => email    = admin_user
+            password = admin_password
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+#DOKUMENTASI WEBSITE
+1. Ambil Tiket Antrian Customer
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/ambiltiket.png?raw=true)
+2. PDF NO Antrian
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/2.noantrian.png?raw=true)
+3. Jika No Polisi Sudah Ada Bisa Melakukan Antrian Baru
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/3.nopolisisudahada.png?raw=true)
+4. Data Antrian Otomatis Pemanggilan dan selesai informasi dari admin
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/4.dataantrianotomatis.png?raw=true)
+5. Tampilan Login Admin
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/5.loginuntukadmin.png?raw=true)
+6. Tampilan Dashboard Admin
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/6.dashboardAdmin.png?raw=true)
+7. Tampilan Data Tiket
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/7.datatiket.png?raw=true)
+8. Tampilan Data Antrian Sesuai Jenis Antrian Pemanggilan
+![alt text](https://github.com/riskiai/TestWebsitePTFourBestSynergy/blob/main/public/assets/img/8.daftarantrian.png?raw=true)
